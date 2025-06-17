@@ -1,0 +1,32 @@
+{
+  "queue_name": "low_priority",
+  "saved_at": 1750190174.285034,
+  "jobs": [
+    {
+      "job_id": "cad8a252-5dfb-4f20-9ecd-8a35a4cd4127",
+      "model_name": "low_job",
+      "model_config": {},
+      "data_path": "/tmp/test_data.csv",
+      "n_samples": 100,
+      "priority": "low",
+      "created_at": 1750190174.28402,
+      "started_at": null,
+      "completed_at": null,
+      "status": "queued",
+      "progress": 0.0,
+      "error_message": null,
+      "output_path": null,
+      "metrics": {},
+      "estimated_memory_mb": null,
+      "actual_memory_mb": null,
+      "gpu_utilization": null
+    }
+  ],
+  "stats": {
+    "total_enqueued": 1,
+    "total_dequeued": 1,
+    "total_completed": 0,
+    "total_failed": 0,
+    "queue_created_at": 1750190174.283881
+  }
+}

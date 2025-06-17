@@ -1,0 +1,32 @@
+{
+  "queue_name": "normal",
+  "saved_at": 1750190174.284839,
+  "jobs": [
+    {
+      "job_id": "35a3540b-d277-42d1-b880-3a912b6bb7d5",
+      "model_name": "normal_job",
+      "model_config": {},
+      "data_path": "/tmp/test_data.csv",
+      "n_samples": 100,
+      "priority": "normal",
+      "created_at": 1750190174.284013,
+      "started_at": null,
+      "completed_at": null,
+      "status": "queued",
+      "progress": 0.0,
+      "error_message": null,
+      "output_path": null,
+      "metrics": {},
+      "estimated_memory_mb": null,
+      "actual_memory_mb": null,
+      "gpu_utilization": null
+    }
+  ],
+  "stats": {
+    "total_enqueued": 1,
+    "total_dequeued": 1,
+    "total_completed": 0,
+    "total_failed": 0,
+    "queue_created_at": 1750190174.28378
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "queue_name": "persistence_test",
+  "saved_at": 1750190174.28615,
+  "jobs": [
+    {
+      "job_id": "d52b19ec-2c05-43c3-91a8-c83527e34189",
+      "model_name": "persistent_job_0",
+      "model_config": {},
+      "data_path": "/tmp/test_data.csv",
+      "n_samples": 100,
+      "priority": "normal",
+      "created_at": 1750190174.2857542,
+      "started_at": null,
+      "completed_at": null,
+      "status": "pending",
+      "progress": 0.0,
+      "error_message": null,
+      "output_path": null,
+      "metrics": {},
+      "estimated_memory_mb": null,
+      "actual_memory_mb": null,
+      "gpu_utilization": null
+    },
+    {
+      "job_id": "439523ec-34bc-40f9-9261-0828dfce679e",
+      "model_name": "persistent_job_1",
+      "model_config": {},
+      "data_path": "/tmp/test_data.csv",
+      "n_samples": 100,
+      "priority": "normal",
+      "created_at": 1750190174.285908,
+      "started_at": null,
+      "completed_at": null,
+      "status": "pending",
+      "progress": 0.0,
+      "error_message": null,
+      "output_path": null,
+      "metrics": {},
+      "estimated_memory_mb": null,
+      "actual_memory_mb": null,
+      "gpu_utilization": null
+    },
+    {
+      "job_id": "96a8c043-5b25-45a3-be27-0973dc87615c",
+      "model_name": "persistent_job_2",
+      "model_config": {},
+      "data_path": "/tmp/test_data.csv",
+      "n_samples": 100,
+      "priority": "normal",
+      "created_at": 1750190174.286148,
+      "started_at": null,
+      "completed_at": null,
+      "status": "pending",
+      "progress": 0.0,
+      "error_message": null,
+      "output_path": null,
+      "metrics": {},
+      "estimated_memory_mb": null,
+      "actual_memory_mb": null,
+      "gpu_utilization": null
+    }
+  ],
+  "stats": {
+    "total_enqueued": 3,
+    "total_dequeued": 0,
+    "total_completed": 0,
+    "total_failed": 0,
+    "queue_created_at": 1750190174.285673
+  }
+}
