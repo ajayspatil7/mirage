@@ -448,6 +448,8 @@ class SerenityEngine:
             
             # Get the model
             model = self.models[job.model_name]
+            if not model:
+                raise ModelError(f"Model '{job.model_name}' not found. Available models: {list(self.models.keys())}")
             
             # Load and validate data
             self._update_job_progress(job, 0.1, "Loading data...")
