@@ -1,9 +1,9 @@
 """
 SerenityEngine - Core Generation Orchestrator for Mirage ML Engine
-Named after Serenity, this is the heart of synthetic data generation.
+Serenity named after Saanya meaning serenity, this is the heart of synthetic data generation.
 
 The SerenityEngine coordinates all ML model execution, resource management,
-and pipeline orchestration with the calm reliability its name suggests.
+and pipeline orchestration with the calm reliability as its name suggests.
 """
 
 import asyncio

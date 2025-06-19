@@ -280,7 +280,7 @@ async def submit_generation_job(
             if model_name == "ctgan":
                 from ...models.tabular.ctgan import CTGANGenerator
                 # Create a dummy instance for registration to avoid SerenityEngine issues
-                dummy_config = CTGANConfig(name="dummy", data_type=DataType.TABULAR)
+                dummy_config = CTGANConfig(name=model_name, data_type=DataType.TABULAR)
                 dummy_instance = CTGANGenerator(dummy_config)
                 engine.register_model(model_name, dummy_instance)
         
