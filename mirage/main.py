@@ -239,6 +239,16 @@ async def general_exception_handler(request: Request, exc: Exception):
 
 
 # =============================================================================
+# API Route Registration
+# =============================================================================
+
+# Import and register API routers
+from .api.v1.generate import router as generate_router
+
+# Register API routes
+app.include_router(generate_router, prefix="/api/v1")
+
+# =============================================================================
 # Core API Routes
 # =============================================================================
 
